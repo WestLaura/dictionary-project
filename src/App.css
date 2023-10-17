@@ -1,5 +1,19 @@
 .App-header {
-  margin: 330px 0;
+  margin: 30px 0;
+}
+
+.App-logo {
+  max-width: 200px;
+  display: block;
+  margin: 0 auto;
+}
+
+body {
+  background: #f9f8fe;
+}
+
+a {
+  color: #9670f4;
 }
 
 .App-footer {
