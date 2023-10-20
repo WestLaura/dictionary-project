@@ -12,7 +12,25 @@ function App() {
         <main>
           <Dictionary defaultKeyword="badger" />
         </main>
-        <footer className="text-center">Coded by Laura W</footer>
+        <footer className="text-center">
+          Coded by Laura W, open-sourced on
+          <a
+            href="https://github.com/WestLaura/dictionary-project"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Github{" "}
+          </a>{" "}
+          and hosted on
+          <a
+            href="https://sweet-hamster-ce0bd2.netlify.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            {" "}
+            Netlify
+          </a>
+        </footer>
       </div>
     </div>
   );
